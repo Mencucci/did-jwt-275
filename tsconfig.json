@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "checkJs": true,
+      "sourceMap": true, // debugging flag
+      "rootDir": "./src",
+      "outDir": "./dist",
+    },
+    "include": [
+      "src/*.ts"
+    ]
+  }

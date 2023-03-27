@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false,
+        // Default (format when you paste)
+        "editor.formatOnPaste": true,
+        // Default (format when you save)
+        "editor.formatOnSave": true
+    }
+}

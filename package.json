@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "ts-ethr-did-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/typescript/bin/tsc",
+    "start": "node dist/app.js",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ayanworks/polygon-did-resolver": "^0.0.13",
+    "did-jwt-vc": "^3.1.2",
+    "did-resolver": "^4.1.0",
+    "ethers": "5.4.7"
+  }
+}
